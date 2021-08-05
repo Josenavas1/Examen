@@ -1,0 +1,157 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(24, 104, 179);
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(55, 138, 221);
+    text-shadow: 0.1em 0.1em 0.2em rgb(15, 80, 149);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(15, 80, 149);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("Img/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 80px;
+    justify-items: center;
+}
+
+section {
+    justify-content: center;
+    display: flex;
+    padding: 5rem;
+    flex-wrap: wrap;
+    margin: auto;
+    border-top: 5px solid rgba(12, 38, 71, 0.87)
+}
+
+.ImgPortada {
+    border: 0.3em solid rgb(22, 97, 97);
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.Fragmento {
+    width: 25rem;
+    height: 19rem;
+    display: block;
+    padding: 1rem;
+    border: 2 px;
+}
+
+.Venta {
+    width: 16rem;
+    height: 15rem;
+    flex-direction: column;
+    padding-bottom: 5rem;
+}
+
+.ImgVenta {
+    border-radius: 10px;
+}
+
+.Contacto {
+    border: auto;
+    flex-direction: column;
+}
+
+.PiePagina {
+    background-color: rgb(12, 67, 67);
+    padding: 0%;
+    justify-content: space-evenly;
+}
+
+#Pequeño {
+    width: 15rem;
+    height: rem;
+    padding: 1rem;
+    border-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+#txtBlanco {
+    color: white;
+}
+
+.Enfasis {
+    display: block;
+    text-align: left;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: rgb(185, 107, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em rgb(139, 79, 10);
+}
+
+.Productos {
+    background-color: rgb(12, 67, 67);
+    justify-content: space-between;
+}
+
+#TiendaNombre {
+    font-size: 25px;
+    color: rgb(24, 104, 179);
+    text-shadow: 0.1em 0.em 0.1em rgb(04, 84, 159);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#TituHead {
+    font-size: 55px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: rgba(75, 75, 75, 0.609);
+    padding: 0.5rem;
+    text-shadow: 0.1em 0.1em 0.2em rgb(24, 104, 179)
+}
+
+#SubHead {
+    font-size: 35px;
+    color: rgb(240, 240, 240);
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em rgb(116, 41, 236)
+}
+
+button {
+    background: none;
+    color: rgb(11, 45, 77);
+    border: 5px solid;
+    background-color: rgba(250, 235, 215, 0.466);
+    padding: 0.5em 1em;
+    font-size: 2rem;
+    border-radius: 5px;
+    transition: color 0.25s, transform 0.25s, border-color 0.25s;
+}
+
+button:hover {
+    border-color: rgb(75, 26, 155);
+    color: rgb(4, 19, 68);
+    box-shadow: 0 0.5em 0.5em -0.3em rgb(51, 12, 114);
+    transform: scale(1.05);
+}
